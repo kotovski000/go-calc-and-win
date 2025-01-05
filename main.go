@@ -68,7 +68,8 @@ func getUserAttack() int {
 			continue
 		}
 		fmt.Println("Количество очков твоей атаки:", attackValue)
-		total += 1
+		//total += 1 ошибка в коде
+		total += attackValue
 	}
 	return total
 }
